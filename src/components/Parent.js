@@ -52,7 +52,7 @@ const Parent=()=>{
     onChange={e => setItemName(e.target.value)}
    />
  <input
-     type="text"
+     type="number"
      placeholder="Item Price"
      value={itemPrice}
      onChange={e => setItemPrice(e.target.value)}
